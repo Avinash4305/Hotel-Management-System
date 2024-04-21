@@ -23,7 +23,7 @@ public class Conn {
 /* #3 */    s = c.createStatement();
 
         }catch (Exception e){
-            e.printStackTrace();
+            System.out.println(e);
         }
 
     }
