@@ -4,14 +4,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.TextEvent;
 import java.sql.SQLException;
 
 public class addDriver extends JFrame implements ActionListener {
 
     JTextField tfName,tfAge,tfCarCompany,tfModel,tfLocation;
     JButton addDriver, cancel;
-    JComboBox cbAvailable,cbGender,cbavailability;
+    JComboBox cbAvailable,cbGender;
 
     addDriver() {
         getContentPane().setBackground(Color.WHITE);
